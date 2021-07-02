@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TagViewCollectionViewCell" customModule="Final_Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="40" height="18"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="40" height="18"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fTT-Ws-wxt">
+                        <rect key="frame" x="0.0" y="0.0" width="40" height="18"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOx-gs-199">
+                                <rect key="frame" x="0.0" y="0.0" width="40" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="vOx-gs-199" secondAttribute="bottom" id="2Uo-tw-AfK"/>
+                            <constraint firstItem="vOx-gs-199" firstAttribute="leading" secondItem="fTT-Ws-wxt" secondAttribute="leading" id="87L-5q-Pre"/>
+                            <constraint firstItem="vOx-gs-199" firstAttribute="top" secondItem="fTT-Ws-wxt" secondAttribute="top" id="8gJ-ZQ-SrR"/>
+                            <constraint firstAttribute="trailing" secondItem="vOx-gs-199" secondAttribute="trailing" id="boP-Pj-uXX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fTT-Ws-wxt" secondAttribute="trailing" id="Lv7-cn-dC7"/>
+                <constraint firstAttribute="bottom" secondItem="fTT-Ws-wxt" secondAttribute="bottom" id="Nds-YQ-cLn"/>
+                <constraint firstItem="fTT-Ws-wxt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VCt-75-JhS"/>
+                <constraint firstItem="fTT-Ws-wxt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aN4-OF-7aw"/>
+            </constraints>
+            <size key="customSize" width="200" height="48"/>
+            <connections>
+                <outlet property="containerView" destination="fTT-Ws-wxt" id="Rv3-wN-uwX"/>
+                <outlet property="platformName" destination="vOx-gs-199" id="CJo-9b-qKE"/>
+            </connections>
+            <point key="canvasLocation" x="240.57971014492756" y="93.080357142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>

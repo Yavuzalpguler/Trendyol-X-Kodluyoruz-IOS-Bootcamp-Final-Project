@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Wishlist" representedClassName="Wishlist" syncable="YES" codeGenerationType="class">
+        <attribute name="gameImage" optional="YES" attributeType="Binary"/>
+        <attribute name="gameName" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Wishlist" positionX="-63" positionY="-18" width="128" height="59"/>
+    </elements>
+</model>
